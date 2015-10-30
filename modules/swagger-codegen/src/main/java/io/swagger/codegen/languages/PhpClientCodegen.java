@@ -16,13 +16,13 @@ import java.util.HashSet;
 public class PhpClientCodegen extends DefaultCodegen implements CodegenConfig {
     protected String invokerPackage = "io.swagger.client";
     protected String groupId = "io.swagger";
-    protected String artifactId = "swagger-client";
+    protected String artifactId = "dwolla-swagger";
     protected String artifactVersion = "1.0.0";
 
     public PhpClientCodegen() {
         super();
 
-        invokerPackage = camelize("SwaggerClient");
+        invokerPackage = camelize("DwollaSwagger");
 
         String packagePath = invokerPackage + "-php";
 

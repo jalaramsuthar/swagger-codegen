@@ -1,5 +1,7 @@
 # Swagger Code Generator
 
+** This branch has modifications to the Mustache templates to include Dwolla-specific namespacing and metadata, as well as a suite rebuild script. Please submit PRs against master to make contributions. **
+
 [![Build Status](https://travis-ci.org/swagger-api/swagger-codegen.png)](https://travis-ci.org/swagger-api/swagger-codegen)
 
 ## Overview
@@ -18,7 +20,8 @@ This fork is modified with the following fixes to make it more suitable for cons
 	- The `Authorization` header automatically gets populated with `Bearer [token]` when the `oauth2` operation is present.
 - Bug fixes
 	- Java style `Outer$Inner` stripped from other languages.
-	- Python fixed "petstore" nomenclature replaced with generic name. 
+	- Python fixed "petstore" nomenclature replaced with generic name.
+
 
 ## Compatibility
 The Swagger Specification has undergone 3 revisions since initial creation in 2010.  The swagger-codegen project has the following compatibilies with the swagger specification:

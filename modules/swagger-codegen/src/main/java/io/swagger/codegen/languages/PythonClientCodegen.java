@@ -13,7 +13,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 public class PythonClientCodegen extends DefaultCodegen implements CodegenConfig {
-    protected String module = "swaggerclient";
+    protected String module = "dwollaswagger";
     protected String invokerPackage;
     protected String eggPackage;
 

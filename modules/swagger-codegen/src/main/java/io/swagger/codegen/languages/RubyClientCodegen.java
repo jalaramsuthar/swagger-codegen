@@ -13,7 +13,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 public class RubyClientCodegen extends DefaultCodegen implements CodegenConfig {
-    protected String gemName = "swagger_client";
+    protected String gemName = "dwolla_swagger";
     protected String moduleName = null;
     protected String libFolder = "lib";
 
